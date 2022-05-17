@@ -83,7 +83,7 @@
 						<goal>schema</goal>
 					</goals>
 						<configuration>
-							<sourceDirectory>${project.basedir}/src/main;resources/avro/</sourceDirectory>
+							<sourceDirectory>${project.basedir}/src/main/resources/avro/</sourceDirectory>
 							<outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
 						</configuration>
 					</execution>
