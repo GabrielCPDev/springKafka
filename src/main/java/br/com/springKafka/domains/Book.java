@@ -19,6 +19,7 @@ public class Book {
     @GeneratedValue(generator = "uuid")
     @GenericGenerator(name = "uuid", strategy = "uuid")
     private String id;
+    private String titulo;
     @ManyToOne
     private People people;
 }
